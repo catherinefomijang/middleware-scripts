@@ -2,13 +2,14 @@
 
 #Author : Catherine F. 
 #Date : 06/12/22
-#Revisied on 6/18/22
+#Rev1 on 6/18/22
+##Rev2 on 08/06/22
 
 ##------------Description : Jenkins installation script -------------------
 
 
 # Installing java 
-sudo yum install java-1.8.0-openjdk-devel -y
+sudo yum install java-11-openjdk-devel -y
 if 
     [ $? -ne 0 ]
 then 
